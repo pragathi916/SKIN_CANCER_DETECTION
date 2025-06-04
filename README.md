@@ -1,11 +1,11 @@
-#🧠 Skin Cancer Detection using Pretrained Models & Ensemble Learning
+# 🧠 Skin Cancer Detection using Pretrained Models & Ensemble Learning
 
 This project detects skin cancer from input images using 6 pretrained deep learning models — ResNet, GoogleNet, EfficientNet, MobileNet, VGG, and ImageNet.
 Each model predicts the cancer type and outputs performance metrics like accuracy, precision, recall, F1-score, and confusion matrix.
 
 Ensemble learning (hard and soft voting) is then applied to improve the final prediction.
 
-#🔍 Features
+# 🔍 Features
 
 Input: Skin lesion image
 Output:
@@ -13,7 +13,7 @@ Predicted class (cancer / non-cancer)
 Accuracy, Precision, Recall, F1-score
 Confusion Matrix
 
-#🧠 Models Used
+# 🧠 Models Used
 
 ✅ ResNet
 ✅ GoogleNet
@@ -22,16 +22,16 @@ Confusion Matrix
 ✅ VGG
 ✅ ImageNet
 
-#🗳️ Ensemble Voting Methods
+# 🗳️ Ensemble Voting Methods
 
 🔘 Hard Voting – Majority prediction
 🔘 Soft Voting – Probability-based prediction
 
-#📁 Dataset
+# 📁 Dataset
 
 HAM10000 skin lesion dataset (Human Against Machine with 10000 training images)
 
-#✅ How to Use
+# ✅ How to Use
 
 Open the Google Colab notebook
 Upload or select a test image
@@ -41,7 +41,7 @@ Predictions for each model
 Confusion matrix & evaluation metrics
 Final ensemble result
 
-#📊 Sample Output
+# 📊 Sample Output
 
 Confusion Matrix
 Accuracy, Precision, Recall, F1-Score
