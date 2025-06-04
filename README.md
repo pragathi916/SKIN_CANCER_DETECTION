@@ -1,4 +1,5 @@
 🧠 Skin Cancer Detection using Pretrained Models & Ensemble Learning
+
 This project detects skin cancer from input images using 6 pretrained deep learning models — ResNet, GoogleNet, EfficientNet, MobileNet, VGG, and ImageNet. Each model predicts cancer type and outputs performance metrics like accuracy, precision, recall, F1-score, and confusion matrix.
 
 Ensemble learning (hard and soft voting) is then applied to enhance the final prediction.
