@@ -1,47 +1,60 @@
 🧠 Skin Cancer Detection using Pretrained Models & Ensemble Learning
-This project detects skin cancer from input images using 6 pretrained deep learning models — ResNet, GoogleNet, EfficientNet, MobileNet, VGG, and ImageNet. Each model predicts cancer type and outputs performance metrics like accuracy, precision, recall, F1-score, and confusion matrix.
+This project detects skin cancer from input images using 6 pretrained deep learning models — ResNet, GoogleNet, EfficientNet, MobileNet, VGG, and ImageNet.
+Each model predicts the cancer type and outputs performance metrics like accuracy, precision, recall, F1-score, and confusion matrix.
 
-Ensemble learning (hard and soft voting) is then applied to enhance the final prediction.
-
+Ensemble learning (hard and soft voting) is then applied to improve the final prediction.
 
 🔍 Features
-
 Input: Skin lesion image
 
 Output:
 
-Predicted class (cancer/non-cancer)
+Predicted class (cancer / non-cancer)
+
 Accuracy, Precision, Recall, F1-score
+
 Confusion Matrix
 
-Models used:
-
+🧠 Models Used
 ✅ ResNet
+
 ✅ GoogleNet
+
 ✅ EfficientNet
+
 ✅ MobileNet
+
 ✅ VGG
+
 ✅ ImageNet
 
-Ensemble Voting:
+🗳️ Ensemble Voting Methods
+🔘 Hard Voting – Majority prediction
 
-🔘 Hard voting (majority prediction)
-🔘 Soft voting (based on probabilities)
+🔘 Soft Voting – Probability-based prediction
 
 📁 Dataset
-
-Trained and tested on the HAM10000 skin lesion dataset.
+HAM10000 skin lesion dataset (Human Against Machine with 10000 training images)
 
 ✅ How to Use
+Open the Google Colab notebook
 
-Open the Colab notebook.
-Upload or select a test image.
-Run the notebook cells to get predictions and evaluation metrics.
-View individual model results and ensemble outcome.
+Upload or select a test image
+
+Run the notebook cells step-by-step
+
+View:
+
+Predictions for each model
+
+Confusion matrix & evaluation metrics
+
+Final ensemble result
 
 📊 Sample Output
-
 Confusion Matrix
+
 Accuracy, Precision, Recall, F1-Score
-Final ensemble prediction
+
+Final Ensemble Prediction
 
