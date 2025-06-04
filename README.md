@@ -41,15 +41,19 @@ Ensemble learning (hard and soft voting) is then applied to improve the final pr
 
 ---
 
-## ✅ How to Use
+## 📖 How to Use
 
-1. Open the Google Colab notebook  
-2. Upload or select a test image  
-3. Run the notebook cells step-by-step  
-4. View:
-   - Predictions for each model  
-   - Confusion matrix & evaluation metrics  
-   - Final ensemble result
+1. Open the Colab notebook.
+2. Install necessary libraries.
+3. Download and Upload Kaggle API Token (Required for dataset):
+- Go to your Kaggle account.
+- Click on your profile picture → Account Settings.
+- Scroll down to the API section.
+- Click “Create New API Token”.
+- This will download a file named kaggle.json.
+4. Upload this file in the Colab notebook when prompted (used to authenticate Kaggle access and download the dataset).
+5. Once the dataset is downloaded and model is ready:
+6. Run each cell in order and Upload any test image of a skin lesion.
 
 ---
 
